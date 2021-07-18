@@ -1,0 +1,165 @@
+
+ .header {
+    min-height: 19vh;
+    width: 100%;
+    
+}
+.alert{
+    margin-bottom: 0px;
+}
+.upper-div{
+    background-color:rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 0px;
+  }
+
+.badge{
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .heading{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Itim', cursive;
+    padding-top: 40px;
+  }
+
+  h3{ 
+
+      padding: 80px 0px;
+      color: #03256C;
+      text-align: center;
+      font-size: 30px;
+  }
+
+
+ #name{
+     width: 70%;
+     margin : 10px;
+     padding: 7px;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 12px;
+     outline: none;
+ }
+
+ #place{
+     width: 70%;
+     margin: 10px;
+     padding: 7px;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 12px;
+     outline: none;
+ }
+
+ #Gender{
+     width: 70%;
+     margin : 10px;
+     padding: 7px;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 12px;
+     outline: none;
+ }
+
+ #email{
+     width: 70%;
+     margin: 10px;
+     padding: 7px;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 12px;
+     outline: none;
+ }
+
+ #phone{
+     width: 70%;
+     margin: 10px;
+     padding: 7px;
+     font-size: 20px;
+     border: 2px solid black;
+     border-radius: 12px;
+     outline: none;
+ }
+ 
+ 
+ 
+
+ #problems{
+    margin: 10px; 
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+    width: 70%;
+    padding: 7px;
+    height: 200px;
+ }
+ 
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('covid19.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px;
+    text-align: -webkit-center;
+    opacity: 1;
+}
+
+
+ .btn-lg{
+     margin: 10px;
+ }
+
+ .d-grid{
+     margin-top: 30px;
+ }
+ 
+ .output-msg{
+     color:brown;
+     text-align: center;
+     font-size: 25px;
+     font-style: bold;
+ }
+
+ .footer{
+     text-align: center;
+     padding: 70px 25px 25px 25px;
+ }
+
+ .btn-primary:hover{
+        border: solid #337FED 1px;
+        background-color: #22ebd0;
+        color: #000 !important;
+        border-radius: 15px;
+        text-decoration: none;
+ }
+
+ .social{
+    text-align: center;
+    margin-top: 80px;
+  }
+.fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 60px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 3px;
+    }
+    
+    
+    .fa-twitter {
+    
+      color: black;
+    }
+    
+    .fa-instagram{
+        color: black;
+    }
+
+    .footer-bar{
+        text-align: center;
+        padding-top: 50px;
+    }

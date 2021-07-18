@@ -1,0 +1,89 @@
+.header {
+    min-height: 19vh;
+    width: 100%;
+}
+
+.upper-div{
+  background-color:rgba(0, 0, 0, 0.25);
+}
+.upper-div p{
+  text-align: center;
+  font-weight: bold;
+  padding: 40px 100px 70px 100px;
+  text-shadow: 1px 1px #fff;
+}
+
+.badge{
+  margin-top: 10px;
+}
+
+.heading{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Itim', cursive;
+  padding-top: 30px;
+}
+    
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 10%;
+      padding: 0;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 0.6rem;
+      box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .card:hover {
+      filter: contrast(100%);
+      cursor: pointer;
+      box-shadow: 10px 20px 40px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    h1,h3,h4 {
+        text-align: center;
+    }
+    
+    .card-title{
+      padding-top: 20px;
+    }
+    
+
+    .help-num{
+      margin: none;
+      padding: 15px;
+    }
+      
+      .social{
+        text-align: center;
+      }
+    .fa {
+          padding: 20px;
+          font-size: 40px;
+          width: 60px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 3px;
+        }
+        
+        
+        .fa-twitter {
+        
+          color: black;
+        }
+        
+        .fa-instagram{
+            color: black;
+        }
+
+    footer{
+            text-align: center;
+        }
+        
+        .footer-bar{
+            padding-top: 40px;
+        }

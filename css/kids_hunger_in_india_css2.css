@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+@media(max-width:500px) {
+    .text-box h1 {
+        font-size: 20px;
+
+    }
+
+}
+
+.second_navbar h1 {
+    background-color: #9fe6a0;
+    margin-top: 90px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    word-spacing: 30px;
+}
+
+.second_navbar h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 15px;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+}
+
+@media(max-width:760px) {
+    .second_navbar h1 {
+       
+        margin-top: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 35px;
+        font-family: 'Staatliches', cursive;
+        word-spacing: 5px;
+    }
+
+    .second_navbar h2 {
+        text-align: center;
+        margin-top: 80px;
+        font-size: 20px;
+        line-height: 22px;
+        font-family: 'Staatliches', cursive;
+        font-family: 'Varela Round', sans-serif;
+        padding: 0px 20px;
+    }
+
+}
+
+.text{
+    text-align: center;
+}
+
+.text h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    background-color: #f9b208;
+    margin: 20px 200px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.text p {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: #007965;
+
+
+}
+
+.text img {
+    margin-top: 30px;
+}
+
+.img-1{
+    width: 450px;
+    height: 250px;
+}
+
+.img-2{
+    width: 600px;
+    height: 450px;
+}
+
+.text h3 {
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #007965;
+}
+
+.text ul li {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+ul{
+    text-align: center;
+}
+
+@media(max-width:500px){
+    .text h1 {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f9b208;
+    margin: 5px 80px;
+    border-radius: 5px;
+    padding: 15px;
+}
+    .text p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: #007965;
+
+
+}
+    
+.text img {
+    margin-top: 30px;
+   
+}
+
+.img-1{
+    width: 300px;
+    height: 150px;
+}
+
+.img-2{
+    width: 400px;
+    height: 300px;
+}
+
+
+.text h3 {
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #007965;
+}
+
+.text ul li {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+    
+    }
+}
+
+.need_your_help h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    color: #f9b208;
+}
+
+.need_your_help p {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Varela Round', sans-serif;
+    color: #77acf1;
+    padding: 0px 100px;
+}
+
+@media screen and (max-width: 500px){
+    .need_your_help p{
+        font-size: 22px;
+        padding: 0px 50px;
+    }
+}
+
+.social {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+
+
+.fa-twitter {
+
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer-bar {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}

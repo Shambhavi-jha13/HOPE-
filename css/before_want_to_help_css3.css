@@ -1,0 +1,215 @@
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+    --bg-pink: #fef8f8;
+    --black-color: 6a515e;
+    --text-color: d7bdca;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/before_want_to_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.cards {
+    display: flex;
+    grid-gap: 2rem;
+    margin: 4rem 5vw;
+    margin-top: 12rem;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+
+
+}
+
+.card__image {
+    width: 100%;
+    height: 350px;
+    opacity: 0.8;
+}
+
+.card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: calc(var(--curve) * 1.5px);
+    background-color: azure;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+}
+
+.card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-gap: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;
+    -webkit-radius: calc(var(--curve) * 1px) 0 0 0;
+    -moz--radius: calc(var(--curve) * 1px) 0 0 0;
+    -ms--radius: calc(var(--curve) * 1px) 0 0 0;
+    padding: 2em;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transition: 0.2s ease-in-out;
+
+}
+
+.card__arc {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.card_arc path {
+    fill: var(--surface-color);
+    
+
+}
+
+.card:hover .card__header {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY();
+
+}
+
+.card__title {
+    font-size: 2.6em;
+    text-align: left;
+    margin: 0 0 0.3em;
+    color: #0a1931;
+    font-family: 'Luckiest Guy', cursive;
+
+
+
+}
+
+.card__description {
+    padding: 2em;
+    margin: 0;
+    background-color: coral;
+    text-align: center;
+    justify-content: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.btn-box {
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 10px;
+    padding: 19px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-box:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+@media(max-width:700px) {
+    .cards{
+        flex-direction: column;
+
+
+    }
+}
+
+
+.footer{
+    padding-bottom: 0px;
+    text-align: center;
+    bottom:0;
+}
+
+.social {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+
+
+.fa-twitter {
+
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    
+}
+
+.footer-bar {
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+@media(max-width:700px) {
+    .social{
+        flex-direction: column;
+
+
+    }
+}

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+.heading{
+
+    background-color: rgba(0,0,0,0.25);
+    padding: 100px 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #03256C;
+    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+
+#header {
+    /*max-width: 1550px; */
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ /* Feature */
+
+ #features{
+    padding: 7% 15%;
+    margin-top: 50px;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ce1f6a;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+.wrapper
+{
+    position: center;
+    display: flex;
+    margin-top:10%;
+    width: 100%;
+    justify-content: space-around;
+    clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+}
+
+.card {
+    margin: 20px;
+    width: 280px;
+    height: 320px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+
+}
+
+@media screen and (max-width: 767px){
+    .card{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.card:hover {
+    transform: translateY(20px);
+
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(rgba(0, 176, 155, 0.5), rgba(150, 201, 61, 1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 1;
+}
+
+.card:hover:before {
+    opacity: 1;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+img:hover{
+    opacity: 0.5;
+    background-size: cover;
+    background-color: red;
+}
+
+.container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+
+.card .info {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+
+}
+
+
+.card .info h1 {
+    margin: 0;
+    position: inherit;
+    font-size: 30px;
+    color: #f54748;
+    cursor: pointer;
+
+}
+
+.card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card .info .btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.social{
+        text-align: center;
+       margin-top: 50px;
+      }
+    .fa {
+          padding: 20px;
+          font-size: 40px;
+          width: 60px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 3px;
+        }
+        
+        
+    .fa-twitter {
+        
+          color: black;
+        }
+        
+    .fa-instagram{
+            color: black;
+        }
+
+    footer{
+            text-align: center;
+        }
+        
+        .footer-bar{
+            padding-top: 40px;
+            padding-bottom: 0px;
+        }
+
